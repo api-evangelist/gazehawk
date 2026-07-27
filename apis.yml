@@ -1,19 +1,53 @@
 aid: gazehawk
-name: Gazehawk
-description: Gazehawk is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gazehawk.png
+name: GazeHawk
+description: >-
+  GazeHawk was a webcam-based eye-tracking startup founded in December 2009 by
+  Brian Krausz and Joe Gershenson, offering affordable eye-tracking usability and
+  ad-testing services that ran on ordinary consumer webcams instead of expensive
+  dedicated hardware. Backed by Y Combinator (S10) and 500 Startups, the company
+  was acqui-hired by Facebook in March 2012 — Facebook hired the engineering team
+  but explicitly did not acquire the product or technology, and the founders moved
+  on to unrelated backend and product engineering. GazeHawk operated no public API,
+  developer portal, or SDKs; the domain today serves only a legacy static marketing
+  and blog site for the defunct product.
 url: https://raw.githubusercontent.com/api-evangelist/gazehawk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+- y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acqui-hired by Facebook in March 2012 (team only, not product/technology).
+x-founded: '2009-12'
+x-founders:
+- Brian Krausz
+- Joe Gershenson
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Eye Tracking
+- Usability
+- Advertising
+- Analytics
+- User Research
+- Defunct
+- Acqui-hire
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,12 @@ maintainers:
 common:
 - type: Website
   url: https://gazehawk.com
+- type: Blog
+  url: https://gazehawk.com/blog/
+- type: About
+  url: https://gazehawk.com/about/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
